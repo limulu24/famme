@@ -22,4 +22,19 @@ body {
 
 textarea {
     resize: vertical;
+}
+
+.captcha-img {
+    height: 38px;
+    cursor: pointer;
+    border: 1px solid #ced4da;
+    border-radius: 0 4px 4px 0;
+}
+
+.captcha-img:hover {
+    opacity: 0.8;
+}
+
+#charCount {
+    color: #6c757d;
 } 
